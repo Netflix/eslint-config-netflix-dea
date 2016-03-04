@@ -68,7 +68,7 @@ module.exports = {
     "semi-spacing": 0,
     "semi": [ 2, "never" ],
     "space-before-blocks": [ 2, "always" ],
-    "space-before-function-paren": [ 2, { "anonymous": "always", "named": "never" } ],
+    "space-before-function-paren": 0,
     "strict": 0,
     "valid-typeof": 2,
     "wrap-iife": [ 2, "inside" ]
