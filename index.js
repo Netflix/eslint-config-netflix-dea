@@ -1,17 +1,10 @@
 module.exports = {
-  "parser": "babel-eslint",
-  "ecmaFeatures": {
-    "jsx": true,
-    "modules": true,
-    "experimentalObjectRestSpread": true,
-    "newTarget": true
-  },
   "env": {
     "browser": true,
     "node": true,
     "es6": true
   },
-  "plugins": [ "react" ],
+  "plugins": [ require.resolve('eslint-plugin-react') ],
   "rules": {
     "array-bracket-spacing": [ 2, "always" ],
     "camelcase": 0,
@@ -55,6 +48,22 @@ module.exports = {
     "no-unused-vars": 2,
     "no-var": 2,
     "no-with": 2,
+
+
+
+    "prefer-const": ["error", {
+      "destructuring": "any",
+      "ignoreReadBeforeAssign": false
+    }],
+    "generator-star-spacing": ["error", {"before": true, "after": true}],
+    "no-const-assign": 2,
+    "no-empty-pattern": 2,
+    "no-useless-rename": 2,
+    "prefer-arrow-callback": 2,
+    "prefer-rest-params": 2,
+    "prefer-spread": 2,
+    "yield-star-spacing": 2,
+    "no-var": 2,
 
     "object-curly-spacing": [ 2, "always" ],
     "quotes": [ 2, "single", "avoid-escape" ],

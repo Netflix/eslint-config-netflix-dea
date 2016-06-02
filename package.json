@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/Netflix/eslint-config-netflix-dea#readme",
   "dependencies": {
-    "babel-eslint": "5.0.0",
+    "eslint": "2.11.1",
     "eslint-plugin-react": "4.1.0"
   }
 }
