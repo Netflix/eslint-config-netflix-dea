@@ -1,3 +1,12 @@
+<a name="2.0.1-3"></a>
+### 2.0.1-3 (2016-06-01)
+
+
+#### Bug Fixes
+
+* babel-eslint ([d969069a](git+https://github.com/Netflix/eslint-config-netflix-dea.git/commit/d969069a))
+
+
 <a name="2.0.1-2"></a>
 ### 2.0.1-2 (2016-06-01)
 
