@@ -4,7 +4,7 @@ module.exports = {
     "node": true,
     "es6": true
   },
-  "plugins": [ require.resolve('eslint-plugin-react') ],
+  "plugins": [ "react" ],
   "rules": {
     "array-bracket-spacing": [ 2, "always" ],
     "camelcase": 0,
