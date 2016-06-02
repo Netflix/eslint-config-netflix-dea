@@ -1,3 +1,12 @@
+<a name="2.0.1-1"></a>
+### 2.0.1-1 (2016-06-01)
+
+
+#### Bug Fixes
+
+* deps ([09129d70](git+https://github.com/Netflix/eslint-config-netflix-dea.git/commit/09129d70))
+
+
 <a name="2.0.1-0"></a>
 ### 2.0.1-0 (2016-06-01)
 
