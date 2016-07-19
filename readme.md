@@ -19,4 +19,4 @@ Then, extend `netflix-dea` in your `.eslintrc`:
 ```
 
 ## A Note on Dependencies
-*eslint-config-netflix-dea* comes with *babel-eslint* and *eslint-plugin-react* because it relies on those packages for ES2015 and React support respectively. While it could be argued that we should use peerDependencies for them, we've made a decision to side with user friendliness and beginner friendliness over flexibility. Netflix's Data Engineering and Analysis group endeavors to provide a welcome and productive development environment for JavaScript rookies as well as veterans. Rookies aren't going to feel welcome and productive if they need to self-resolve a complex web of dependencies that we can easily prepare for them.
+*eslint-config-netflix-dea* comes with *babel-eslint* and *eslint-plugin-react* as peer deps because it relies on those packages for ES2015 and React support respectively. 
