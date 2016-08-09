@@ -82,7 +82,7 @@ module.exports = {
     "react/jsx-no-undef": 2,
     "react/jsx-pascal-case": 1,
     "react/jsx-uses-react": 1,
-    "react/wrap-multilines": 2,
+    "react/jsx-wrap-multilines": 2,
 
     "semi-spacing": 0,
     "semi": [ 2, "never" ],
