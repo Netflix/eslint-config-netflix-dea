@@ -24,6 +24,6 @@
   "homepage": "https://github.com/Netflix/eslint-config-netflix-dea#readme",
   "peerDependencies": {
     "babel-eslint": "^6.0.0",
-    "eslint-plugin-react": "^4.1.0"
+    "eslint-plugin-react": "^6.1.0"
   }
 }
