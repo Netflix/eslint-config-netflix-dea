@@ -1,3 +1,12 @@
+<a name="2.0.4"></a>
+### 2.0.4 (2016-08-09)
+
+
+#### Bug Fixes
+
+* lower eslint-plugin-react version ([40abae2f](git+https://github.com/Netflix/eslint-config-netflix-dea.git/commit/40abae2f))
+
+
 <a name="2.0.3"></a>
 ### 2.0.3 (2016-08-09)
 
