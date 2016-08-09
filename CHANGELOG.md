@@ -1,3 +1,12 @@
+<a name="2.0.5"></a>
+### 2.0.5 (2016-08-09)
+
+
+#### Bug Fixes
+
+* jsx-wrap-multilines ([c10cb45d](git+https://github.com/Netflix/eslint-config-netflix-dea.git/commit/c10cb45d))
+
+
 <a name="2.0.4"></a>
 ### 2.0.4 (2016-08-09)
 
