@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-netflix-dea",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "Shareable eslint config for Netflix DEA repos",
   "main": "index.js",
   "repository": {
