@@ -17,7 +17,9 @@ module.exports = {
   "plugins": [ "react" ],
   "rules": {
     "array-bracket-spacing": [ 2, "always" ],
+    "array-callback-return": 2,
     "camelcase": 0,
+    "class-methods-use-this": 2,
     "comma-dangle": [ 2, "never" ],
     "comma-style": [ 2, "last" ],
     "curly": [ 2,"multi"],
@@ -37,6 +39,8 @@ module.exports = {
     "no-cond-assign": [ 2, "except-parens" ],
     "no-debugger": 2,
     "no-empty": 2,
+    "no-empty-function": 2,
+    "no-lone-blocks": 2,
     "no-eval": 2,
     "no-extend-native": 2,
     "no-extra-parens": 2,
@@ -60,6 +64,13 @@ module.exports = {
     "no-with": 2,
 
 
+    "no-useless-constructor": 2,
+    "no-useless-rename": ["error", {
+      "ignoreDestructuring": true,
+      "ignoreImport": true,
+      "ignoreExport": true
+    }],
+    "no-template-curly-in-string": 2,
 
     "prefer-const": ["error", {
       "destructuring": "any",
@@ -68,10 +79,11 @@ module.exports = {
     "generator-star-spacing": ["error", {"before": true, "after": true}],
     "no-const-assign": 2,
     "no-empty-pattern": 2,
-    "no-useless-rename": 2,
     "prefer-arrow-callback": 2,
     "prefer-rest-params": 2,
     "prefer-spread": 2,
+    "prefer-template": 2,
+    "template-curly-spacing": ["error", "never"],
     "yield-star-spacing": 2,
     "no-var": 2,
 
@@ -80,9 +92,16 @@ module.exports = {
 
     "react/jsx-no-duplicate-props": 2,
     "react/jsx-no-undef": 2,
+    "react/jsx-uses-vars": 2,
     "react/jsx-pascal-case": 1,
     "react/jsx-uses-react": 1,
     "react/jsx-wrap-multilines": 2,
+    "react/prefer-stateless-function": 2,
+    "react/no-deprecated": 2,
+    "react/no-did-mount-set-state": 2,
+    "react/require-render-return": 2,
+    "react/jsx-no-bind": 2,
+    "react/jsx-key": 2,
 
     "semi-spacing": 0,
     "semi": [ 2, "never" ],
