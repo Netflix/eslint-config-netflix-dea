@@ -1,3 +1,28 @@
+<a name="2.1.1-0"></a>
+### 2.1.1-0 (2017-04-13)
+
+
+#### Features
+
+* base this on netflix config ([faa32a62](git+https://github.com/Netflix/eslint-config-netflix-dea.git/commit/faa32a62))
+* stricter JSX and ES2016 rules ([27770a1c](git+https://github.com/Netflix/eslint-config-netflix-dea.git/commit/27770a1c))
+
+
+#### Breaking Changes
+
+* 
+Netflix config contains some rule changes
+
+ ([faa32a62](git+https://github.com/Netflix/eslint-config-netflix-dea.git/commit/faa32a62))
+* 
+* Template strings can't have space next to brackets
+* Curly brackets not used for templating in string
+  prohibited to help catch typos
+* Prevent using class methods without `this`
+
+ ([27770a1c](git+https://github.com/Netflix/eslint-config-netflix-dea.git/commit/27770a1c))
+
+
 <a name="2.1.0"></a>
 ## 2.1.0 (2016-10-17)
 
