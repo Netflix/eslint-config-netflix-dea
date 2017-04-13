@@ -1,0 +1,18 @@
+{
+  "extends": "netflix",
+  "plugins": [ "react" ],
+  "rules": {
+    "react/jsx-no-duplicate-props": 2,
+    "react/jsx-no-undef": 2,
+    "react/jsx-uses-vars": 2,
+    "react/jsx-pascal-case": 1,
+    "react/jsx-uses-react": 1,
+    "react/jsx-wrap-multilines": 2,
+    "react/prefer-stateless-function": 2,
+    "react/no-deprecated": 2,
+    "react/no-did-mount-set-state": 2,
+    "react/require-render-return": 2,
+    "react/jsx-no-bind": 2,
+    "react/jsx-key": 2
+  }
+}
