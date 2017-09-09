@@ -1,12 +1,16 @@
 {
   "name": "eslint-config-netflix-dea",
-  "version": "2.1.1-0",
-  "description": "Shareable eslint config for Netflix DEA repos",
+  "version": "3.0.0-beta.0",
+  "description": "An ESLint config for data-rich front-end JavaScript projects, brought to you by Netflix",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Netflix/eslint-config-netflix-dea.git"
   },
+  "files": [
+    "index.js",
+    "eslintrc.json"
+  ],
   "keywords": [
     "eslint",
     "config",
@@ -14,7 +18,12 @@
     "lint",
     "plugin",
     "netflix",
-    "dea"
+    "dea",
+    "react",
+    "flow",
+    "data",
+    "dx",
+    "abacus"
   ],
   "author": "James J. Womack <jwomack@netflix.com>",
   "license": "MIT",
@@ -24,19 +33,21 @@
   "homepage": "https://github.com/Netflix/eslint-config-netflix-dea#readme",
   "peerDependencies": {
     "babel-eslint": "^7.0.0",
-    "eslint-plugin-react": "^6.10.3"
+    "eslint-plugin-react": "^7.1.0"
   },
   "dependencies": {
-    "eslint-config-netflix": "1.0.2-0"
+    "eslint-config-netflix": "2.0.0"
   },
   "devDependencies": {
+    "@jameswomack/dir": "1.0.0",
     "babel-eslint": "7.2.2",
-    "eslint": "3.19.0",
-    "eslint-plugin-react": "6.10.3",
+    "eslint": "4.2.0",
+    "eslint-plugin-react": "7.1.0",
     "tap-difflet": "0.7.0",
     "tape": "4.6.3"
   },
   "scripts": {
-    "test": "tape test/*.js | tap-difflet"
+    "lint": "eslint -c index.js ./",
+    "test": "node --harmony ./node_modules/.bin/tape test/*.js | tap-difflet"
   }
 }
