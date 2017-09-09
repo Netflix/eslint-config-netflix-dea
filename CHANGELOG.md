@@ -1,3 +1,12 @@
+<a name="3.0.0"></a>
+## 3.0.0 (2017-09-08)
+
+
+#### Features
+
+* support use with latest react-scripts ([bb64793b](git+https://github.com/Netflix/eslint-config-netflix-dea.git/commit/bb64793b))
+
+
 <a name="2.1.1-0"></a>
 ### 2.1.1-0 (2017-04-13)
 
