@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-netflix-dea",
-  "version": "3.0.0-beta.0",
+  "version": "3.0.0",
   "description": "An ESLint config for data-rich front-end JavaScript projects, brought to you by Netflix",
   "main": "index.js",
   "repository": {
