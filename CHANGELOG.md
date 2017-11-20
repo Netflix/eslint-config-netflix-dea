@@ -1,3 +1,12 @@
+<a name="3.0.1-0"></a>
+### 3.0.1-0 (2017-11-20)
+
+
+#### Bug Fixes
+
+* parens conflicted w/ wrap multi ([acb4247b](git+https://github.com/Netflix/eslint-config-netflix-dea.git/commit/acb4247b))
+
+
 <a name="3.0.0"></a>
 ## 3.0.0 (2017-09-08)
 
